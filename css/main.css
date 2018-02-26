@@ -1,0 +1,118 @@
+
+.back {
+	height: 150px;
+	width: 1200px;
+	background-image: url(../img/grey.jpg);
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.back img {
+	width: 100px;
+	margin: 23px 0 0 150px;
+}
+.back small {
+	font-size: 80%;
+}
+.info {
+	display: inline-block;
+	width: 150px;
+    height: 50px;
+    margin-left: 130px;
+}
+.info ul li  {
+	display: inline-block;
+	list-style: none;
+}
+.info ul {
+	float: right;
+	display: flex;
+}
+.info ul li a {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background:#fff;
+	font-size: 20px;
+	margin: 0 7px;
+	display: block;
+	border-radius: 50%;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+.info ul li a .fa {
+	position: relative;
+	color: #262626;
+	transition: .5s;
+}
+.info ul li a:hover .fa {
+	transform: rotateY(360deg);
+}
+.info ul li a:before {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f00;
+	transition: .5s;
+	z-index: 2;
+}
+.info ul li a:hover:before {
+	top: 0;
+}
+
+.info ul li:nth-child(1) a:before{
+	background: #55acee;
+
+}
+.info ul li:nth-child(2) a:before{
+background: #3b5999;
+}
+.info ul li:nth-child(3) a:before{
+background: #e4405f;
+}
+.info ul li:nth-child(4) a:before{
+background: #dd4b39;
+}
+.info ul li:nth-child(5) a:before{
+background: #ff5700;
+}
+/* aq mtavrdeba socialuri mediis anu facebookis da ragac rugaceebis gamzadeba */
+.news {
+	display: inline-block;
+	height: 20px;
+	width: 200px;
+	position: absolute;
+	padding: 22px 30px 2px;
+	color: white;
+}
+.news h1 {
+	font-size: 150%;
+	padding: 0 2px 4px 0;
+}
+.news p {
+	font-size: 70%;
+}
+
+.registrate {
+	width: 130px;
+	height: 23px;
+	background-color:   #28dc3e;
+	text-align: center;
+	float: right;
+	margin-right: 150px;
+	margin-top: 70px;
+	border-radius: 3%;
+	opacity: 0.9;
+}
+.registrate h1 a{
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: #f9fefa;
+}
+.registrate:hover {
+     opacity: 1;
+}
