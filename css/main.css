@@ -1,10 +1,9 @@
 
 .back {
 	height: 150px;
-	width: 1200px;
+	max-width: 1200px;
 	background-image: url(../img/grey.jpg);
-	margin-right: auto;
-	margin-left: auto;
+	margin:0 auto;
 }
 
 .back img {
@@ -115,4 +114,65 @@ background: #ff5700;
 }
 .registrate:hover {
      opacity: 1;
+}
+.heder {
+	display: block;
+}
+
+/* aqedan iwyeba news feed */
+
+.conteiner {
+	width: 1000px;
+	margin: 0 auto;
+	padding:20px 0 0 0;
+}
+.post {
+	background-color: #ffffff;
+	width: 75%;
+	float: left;
+	padding: 30px 20px 30px 20px;
+	color:  #3d3f40;
+}
+.post2 {
+		color: #3d3f40;
+		float: left;
+		width: 75%;
+		background-color: #ffffff;
+		padding:  30px 20px 30px 20px;
+		margin-top: 20px;
+}
+.post2 a {
+		color: #3d3f40;
+	text-decoration: none;
+}
+.category {
+	background-color: #ffffff;
+	float: right;
+	width: 20%;
+	height: 160px;
+}
+.category ul {
+	padding: 10px 0 0 0;
+}
+.category ul li {
+	text-align: center;
+	width: 100%;
+	padding: 0 0 10px 0;
+	transition: background-color 2s;
+}
+.category ul li:hover {
+	background-color: #1dbada;
+}
+.category ul li a {
+	text-decoration: none;
+	transition: color 1s;
+	color: #3d3f40;
+	font-size: 90%;
+}
+.category ul li a:hover {
+	color: #ffffff;
+}
+.category h2 {
+	padding: 0 0 0 50px;
+	font-size: 120%;
 }
