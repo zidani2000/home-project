@@ -240,3 +240,41 @@ aside .reklama {
 	text-align: center;
 	padding: 10px;
 }
+
+/* responsive */
+
+@media (max-width: 1200px) {
+
+	.conteiner .post {
+		width: 80%;
+		margin-bottom: 15px;
+	}
+
+	.reklama {
+		display: none;
+	}
+	.category {
+		float: left;
+		width: 84%;
+	}
+	.category h2 {
+		box-sizing: border-box;
+		padding: 0 0 10px 371px;
+	}
+
+    .conteiner .post2 {
+    	width: 80%;
+    }
+    .conteiner .post3 {
+    	width: 80%;
+    }
+
+	}
+
+	@media (max-width: 830px) {
+		.registrate {
+			float: left;
+			margin-left: 270px;
+			margin-top: 0;
+		}
+	}
