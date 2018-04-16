@@ -43,3 +43,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+@font-face {
+	font-family: qartuli;
+	src: url('../fonts/qartuli.ttf');
+}
+@font-face {
+	font-family: geosmall;
+	src: url('../fonts/qartulipatara.ttf');
+}
+.post p {
+	font-family: geosmall;
+}
